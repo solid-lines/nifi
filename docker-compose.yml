@@ -15,7 +15,7 @@ services:
     nifi:
         hostname: mynifi
         container_name: nifi_container_persistent
-        image: 'apache/nifi:1.17.0'  # latest image as of 2021-11-09.
+        image: 'apache/nifi:1.19.0'
         restart: on-failure
         ports:
             - '8091:8080'
